@@ -25,7 +25,7 @@ A comprehensive curated collection of research papers, conferences, journals, da
 - [Conference Proceedings (ASMC, ISQED)](#conference-proceedings-asmc-isqed)
 - [GitHub Projects & Open Source](#github-projects--open-source)
 - [Large Language Models for Root Cause Analysis](#large-language-models-for-root-cause-analysis--failure-diagnosis)
-- [Systematic Reviews & Meta-Analyses](#systematic-reviews)
+- [Systematic Reviews & Meta-Analyses](#systematic-reviews--meta-analyses)
 
 ---
 
