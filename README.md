@@ -20,6 +20,7 @@ A comprehensive curated collection of research papers, conferences, journals, da
 - [Conference Proceedings (ASMC, ISQED)](#conference-proceedings-asmc-isqed)
 - [GitHub Projects & Open Source](#github-projects--open-source)
 - [Systematic Reviews](#systematic-reviews)
+- [Large Language Models for Root Cause Analysis](#large-language-models-for-root-cause-analysis--failure-diagnosis)
 
 ---
 
@@ -127,6 +128,17 @@ A comprehensive curated collection of research papers, conferences, journals, da
 - **Silicon Wafer Defect Pattern Detection using Machine Learning**
   https://www.sciencedirect.com/science/article/abs/pii/S2214785323021302
 
+- **Image-Based Surface Defect Detection Using Deep Learning: A Review**
+  https://asmedigitalcollection.asme.org/computingengineering/article/21/4/040801/1094064/Image-Based-Surface-Defect-Detection-Using-Deep
+
+### AlexNet, VGG, GoogLeNet Architectures
+
+- **Using Deep Learning to Detect Defects in Manufacturing: A Comprehensive Survey and Current Challenges**
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC7766692/
+
+- **Enhancing Printed Circuit Board Defect Detection through Ensemble Learning**
+  https://arxiv.org/html/2409.09555v1
+
 ### ResNet & Transfer Learning
 
 - **Evaluation of the Transfer Learning Models in Wafer Defects Classification**
@@ -134,6 +146,12 @@ A comprehensive curated collection of research papers, conferences, journals, da
 
 - **Smart Defect Detection using Transfer Learning in Injection Molding: A Comparative Exploration Study of Deep Learning Architectures**
   https://link.springer.com/article/10.1007/s00170-024-13768-5
+
+- **Enhancing Wafer Defect Detection via Ensemble Learning**
+  https://pubs.aip.org/aip/adv/article/14/8/085301/3305921/Enhancing-wafer-defect-detection-via-ensemble
+
+- **A Two-Stage Industrial Defect Detection Framework Based on Improved-YOLOv5 and Optimized-Inception-ResnetV2 Models**
+  https://www.mdpi.com/2076-3417/12/2/834
 
 ### Vision Transformers & Attention Mechanisms
 
@@ -145,6 +163,64 @@ A comprehensive curated collection of research papers, conferences, journals, da
 
 - **Semiconductor Defect Pattern Classification by Self-Proliferation and Attention Network**
   https://arxiv.org/pdf/2212.00345
+
+- **CBAM: Convolutional Block Attention Module**
+  https://arxiv.org/abs/1807.06521
+
+- **On the Use of a Convolutional Block Attention Module in Deep Learning-Based Human Activity Recognition with Motion Sensors**
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC10252329/
+
+- **Attention-based Bidirectional-Long Short-Term Memory for Abnormal Human Activity Detection**
+  https://www.nature.com/articles/s41598-023-41231-0
+
+- **Design of an Integrated Model with Temporal Graph Attention and Transformer-Augmented RNNs for Enhanced Anomaly Detection**
+  https://www.nature.com/articles/s41598-025-85822-5
+
+### Object Detection (YOLO, Faster R-CNN)
+
+- **You Only Look Once: Unified, Real-Time Object Detection**
+  https://arxiv.org/abs/1506.02640
+  https://ieeexplore.ieee.org/document/7780460/
+
+- **Faster-YOLO: An Accurate and Faster Object Detection Method**
+  https://www.sciencedirect.com/science/article/abs/pii/S1051200420301019
+
+- **Object Detection Using YOLO: Challenges, Architectural Successors, Datasets and Applications**
+  https://link.springer.com/article/10.1007/s11042-022-13644-y
+
+- **End-to-End Deep Learning Framework for Printed Circuit Board Manufacturing Defect Classification**
+  https://www.nature.com/articles/s41598-022-16302-3
+
+- **Performance Study of YOLOv5 and Faster R-CNN**
+  https://arxiv.org/pdf/2301.09056
+
+- **A High-Throughput and Power-Efficient FPGA Implementation of YOLO CNN for Object Detection**
+  https://dl.acm.org/doi/abs/10.1109/TVLSI.2019.2905242
+
+- **PCB-Faster-RCNN: An Improved Object Detection Algorithm for PCB Surface Defects**
+  https://www.mdpi.com/2076-3417/15/24/12881
+
+- **YOLOv8-seg-CP: A Lightweight Instance Segmentation Algorithm for Chip Pad Based on Improved YOLOv8-seg Model**
+  https://www.nature.com/articles/s41598-024-78578-x
+
+- **BoardVision: Deployment-ready and Robust Motherboard Defect Detection with YOLO+Faster-RCNN Ensemble**
+  https://arxiv.org/html/2510.14389v1
+
+### LSTM & Recurrent Networks
+
+- **Applications of Long Short-Term Memory (LSTM) Networks in Polymeric Sciences: A Review**
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC11435440/
+
+- **Deep BiLSTM Attention Model for Spatial and Temporal Anomaly Detection in Video Surveillance**
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC11723474/
+
+### Lightweight Architectures
+
+- **SqueezeNet: AlexNet-level Accuracy with 50x Fewer Parameters and <0.5MB Model Size**
+  https://arxiv.org/abs/1602.07360
+
+- **MobileNet: Efficient Convolutional Neural Networks for Mobile Vision Applications**
+  https://arxiv.org/abs/1704.04861
 
 ---
 
@@ -411,7 +487,73 @@ A comprehensive curated collection of research papers, conferences, journals, da
 
 ---
 
-## Contributing
+## Large Language Models for Root Cause Analysis & Failure Diagnosis
+
+### LLM & NLP for Semiconductor Fault Analysis
+
+- **Intelligent Fault Analysis Decision Flow in Semiconductor Industry 4.0 Using Natural Language Processing with Deep Clustering**
+  https://ieeexplore.ieee.org/document/9551492/
+  https://hal-emse.ccsd.cnrs.fr/emse-03325358v1
+  IEEE 17th International Conference on Automation Science and Engineering (CASE), 2021
+
+- **Natural Language Processing (NLP) and Association Rules (AR)-Based Knowledge Extraction for Intelligent Fault Analysis: A Case Study in Semiconductor Industry**
+  https://link.springer.com/article/10.1007/s10845-023-02245-7
+  https://www.researchgate.net/publication/375519458_Natural_language_processing_NLP_and_association_rules_AR-based_knowledge_extraction_for_intelligent_fault_analysis_a_case_study_in_semiconductor_industry
+  Journal of Intelligent Manufacturing, Volume 36, Issue 1, 2024
+
+- **Root Cause Prediction for Failures in Semiconductor Industry, A Genetic Algorithm–Machine Learning Approach**
+  https://www.nature.com/articles/s41598-023-30769-8
+  https://hal.science/hal-04390980
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC10043275/
+  Scientific Reports, Volume 13, Article 4934, 2023
+
+- **Big GCVAE: Decision-Making with Adaptive Transformer Model for Failure Root Cause Analysis in Semiconductor Industry**
+  https://www.researchgate.net/publication/379509120_Big_GCVAE_decision-making_with_adaptive_transformer_model_for_failure_root_cause_analysis_in_semiconductor_industry
+  Pre-trained LLMs with BERT-GPT2 Architecture for Failure Analysis, 2024
+
+- **Sensitivity Analysis of Text Vectorization Techniques for Failure Analysis: A Latent Dirichlet Allocation and Generalized Variational Autoencoder Approach**
+  https://www.researchgate.net/profile/Kenneth-Ezukwoke
+  Feature extraction and text representation for semiconductor fault analysis
+
+### Other LLM-Based Root Cause Analysis
+
+- **Automatic Root Cause Analysis via Large Language Models**
+  https://arxiv.org/pdf/2305.15778
+
+- **Towards LLM-based Root Cause Analysis of Hardware Design Failures**
+  https://arxiv.org/abs/2507.06512
+  https://arxiv.org/html/2507.06512
+
+- **GALA: Can Graph-Augmented Large Language Model Agentic Workflows Elevate Root Cause Analysis?**
+  https://arxiv.org/html/2508.12472
+
+- **Exploring LLM-Based Agents for Root Cause Analysis**
+  https://arxiv.org/html/2403.04123v1
+  https://dl.acm.org/doi/10.1145/3663529.3663841
+
+- **OpenRCA: Can Large Language Models Locate the Root Cause of Software Failures?**
+  https://openreview.net/forum?id=M4qNIzQYpd
+
+- **How Meta Uses LLMs to Improve Incident Response (and How You Can Too)**
+  https://www.tryparity.com/blog/how-meta-uses-llms-to-improve-incident-response
+
+### LLM for Fault Diagnosis & Maintenance
+
+- **FD-LLM: Large Language Model for Fault Diagnosis of Machines**
+  https://arxiv.org/html/2412.01218v1
+
+- **Exploring LLM-Based Agents for Root Cause Analysis (ResearchGate)**
+  https://www.researchgate.net/publication/382158074_Exploring_LLM-Based_Agents_for_Root_Cause_Analysis
+
+### LLM-Based Incident Management & Anomaly Detection
+
+- **LogPilot: Intent-aware and Scalable Alert Diagnosis for Large-scale Online Service Systems**
+  Referenced in comprehensive RCA surveys
+
+- **Towards LLM-Based Failure Localization in Production-Scale Networks**
+  https://dl.acm.org/conference/2025-acm-sigcomm
+
+---
 
 This curated list is maintained for educational and research purposes. To contribute additional papers, projects, or resources, please ensure links are verified and relevant to ML/AI for semiconductor fault analysis.
 
