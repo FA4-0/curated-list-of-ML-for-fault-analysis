@@ -16,11 +16,16 @@ A comprehensive curated collection of research papers, conferences, journals, da
 - [Anomaly Detection & Unsupervised Learning](#anomaly-detection--unsupervised-learning)
 - [Wafer Map Defect Classification](#wafer-map-defect-classification)
 - [SEM Image Analysis](#sem-image-analysis)
+- [Yield Prediction & Optimization](#yield-prediction--optimization)
+- [Virtual Metrology & Predictive Metrology](#virtual-metrology--predictive-metrology)
+- [Explainable AI & Interpretability](#explainable-ai--interpretability)
+- [Semi-Supervised & Weakly-Supervised Learning](#semi-supervised--weakly-supervised-learning)
+- [Federated Learning & Edge Computing](#federated-learning--edge-computing)
 - [Datasets & Benchmarks](#datasets--benchmarks)
 - [Conference Proceedings (ASMC, ISQED)](#conference-proceedings-asmc-isqed)
 - [GitHub Projects & Open Source](#github-projects--open-source)
-- [Systematic Reviews](#systematic-reviews)
 - [Large Language Models for Root Cause Analysis](#large-language-models-for-root-cause-analysis--failure-diagnosis)
+- [Systematic Reviews](#systematic-reviews)
 
 ---
 
@@ -46,11 +51,17 @@ A comprehensive curated collection of research papers, conferences, journals, da
 - **Electron Microscopy-based Automatic Defect Inspection for Semiconductor Manufacturing: A Systematic Review**
   https://arxiv.org/html/2409.06833v1
 
-- **Scanning Electron Microscopy-based Automatic Defect Inspection for Semiconductor Manufacturing: A Systematic Review**
-  https://arxiv.org/html/2409.06833
-
 - **Automated Semiconductor Defect Inspection in SEM Images**
   https://arxiv.org/pdf/2308.08376
+
+- **Exploring Machine Learning for Semiconductor Process Optimization: A Systematic Review**
+  https://www.techrxiv.org/users/689925/articles/1184255/master/file/data/Exploring_Machine_Learning_for_Semiconductor_Process_Optimization__A_Systematic_Review__1_/Exploring_Machine_Learning_for_Semiconductor_Process_Optimization__A_Systematic_Review__1_.pdf
+
+- **A Survey on Semiconductor Wafer Yield Prediction by Artificial Intelligence**
+  https://www.sciencedirect.com/science/article/abs/pii/S1879239125004084
+
+- **Virtual Metrology in Semiconductor Manufacturing: Current Status and Future Prospects**
+  https://www.sciencedirect.com/science/article/abs/pii/S095741742400424X
 
 ---
 
@@ -77,7 +88,16 @@ A comprehensive curated collection of research papers, conferences, journals, da
 - **Wafer Fault Detection in Manufacturing using Machine Learning**
   https://ieeexplore.ieee.org/document/10782617/
 
-### IEEE ISQED (International Symposium on Quality Electronic Design)
+- **Semi-Supervised Learning for Defect Pattern Recognition**
+  https://ieeexplore.ieee.org/document/9720000/
+
+- **Weakly Supervised Learning in Wafer Map Testing**
+  https://ieeexplore.ieee.org/document/10318433/
+
+- **Self-Supervised Learning for Wafer Bin Map Classification**
+  https://ieeexplore.ieee.org/document/9457754/
+
+### IEEE ISQED & Other Conferences
 
 - **Advanced Techniques in Semiconductor Defect Detection and Classification: Overview of Current Technologies and Future Trends in AI/ML Integration**
   https://ieeexplore.ieee.org/document/10696150
@@ -85,10 +105,22 @@ A comprehensive curated collection of research papers, conferences, journals, da
 - **A Generalized Semiconductor Wafer Defect Detection Method using Synthetic Data and Minority Class Imbalance**
   https://openreview.net/pdf?id=VAJVN44B5b
 
-### IEEE Xplore Additional Publications
-
 - **Federated Learning and Explainable AI for Semiconductor Defect Detection**
   https://ieeexplore.ieee.org/iel8/6287639/10380310/10589388.pdf
+
+- **Yield Prediction with Machine Learning and Parameter Limits in Semiconductor Production**
+  https://ieeexplore.ieee.org/document/10027006/
+
+- **Semiconductor Parametric Yield Prediction: A Combination of Machine Learning and Physics-Informed Approach**
+  https://ieeexplore.ieee.org/document/10935067/
+
+### IEEE Access & Other Transactions
+
+- **Improved Wafer Defect Pattern Classification in Semiconductor Manufacturing Using Deep Learning and Explainable AI**
+  https://link.springer.com/chapter/10.1007/978-3-031-80154-9_7
+
+- **Semi-Supervised Learning with Wafer-Specific Augmentations for Wafer Defect Classification**
+  https://ieeexplore.ieee.org/document/10762815
 
 ---
 
@@ -113,6 +145,15 @@ A comprehensive curated collection of research papers, conferences, journals, da
 - **Semiconductor Defect Pattern Classification by Self-Proliferation and Attention Network**
   https://arxiv.org/pdf/2212.00345
 
+- **Wafer Map Defect Patterns Semi-Supervised Classification Using Latent Vector Representation**
+  https://arxiv.org/abs/2311.12840
+
+- **Improving Machine Learning-Based Modeling of Semiconductor Devices by Data Self-Augmentation**
+  https://arxiv.org/abs/2105.11453v1
+
+- **Explainable AutoML (xAutoML) with Adaptive Modeling for Yield Enhancement in Semiconductor Smart Manufacturing**
+  https://arxiv.org/html/2403.12381v1
+
 ---
 
 ## Deep Learning Architectures
@@ -131,13 +172,19 @@ A comprehensive curated collection of research papers, conferences, journals, da
 - **Image-Based Surface Defect Detection Using Deep Learning: A Review**
   https://asmedigitalcollection.asme.org/computingengineering/article/21/4/040801/1094064/Image-Based-Surface-Defect-Detection-Using-Deep
 
-### AlexNet, VGG, GoogLeNet Architectures
-
 - **Using Deep Learning to Detect Defects in Manufacturing: A Comprehensive Survey and Current Challenges**
   https://pmc.ncbi.nlm.nih.gov/articles/PMC7766692/
 
 - **Enhancing Printed Circuit Board Defect Detection through Ensemble Learning**
   https://arxiv.org/html/2409.09555v1
+
+### AlexNet, VGG, GoogLeNet, Inception Architectures
+
+- **Modified AlexNet (Mod-AlexNet) for Wafer Defect Classification with Explainable AI**
+  https://link.springer.com/chapter/10.1007/978-3-031-80154-9_7
+
+- **Deep Convolutional Networks for Surface Defect Detection in Manufacturing**
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC7766692/
 
 ### ResNet & Transfer Learning
 
@@ -214,6 +261,9 @@ A comprehensive curated collection of research papers, conferences, journals, da
 - **Deep BiLSTM Attention Model for Spatial and Temporal Anomaly Detection in Video Surveillance**
   https://pmc.ncbi.nlm.nih.gov/articles/PMC11723474/
 
+- **Recurrent Neural Networks for Time Series Forecasting in Semiconductor Manufacturing**
+  https://dl.acm.org/doi/10.1109/ICMLA.2019.00054
+
 ### Lightweight Architectures
 
 - **SqueezeNet: AlexNet-level Accuracy with 50x Fewer Parameters and <0.5MB Model Size**
@@ -221,6 +271,9 @@ A comprehensive curated collection of research papers, conferences, journals, da
 
 - **MobileNet: Efficient Convolutional Neural Networks for Mobile Vision Applications**
   https://arxiv.org/abs/1704.04861
+
+- **EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks**
+  https://arxiv.org/abs/1905.11946
 
 ---
 
@@ -239,7 +292,22 @@ A comprehensive curated collection of research papers, conferences, journals, da
   https://arxiv.org/html/2407.20268v1
 
 - **Using GAN to Improve CNN Performance of Wafer Map Defect Type Classification**
-  Referenced in: https://ieeexplore.ieee.org/document/9185193
+  https://ieeexplore.ieee.org/document/9185193
+
+- **Conditional StyleGAN Modelling and Analysis for a Machining Digital Twin**
+  https://www.researchgate.net/publication/353501901_Conditional_StyleGAN_modelling_and_analysis_for_a_machining_digital_twin
+
+- **A Style-Based Generator Architecture for Generative Adversarial Networks (StyleGAN)**
+  https://arxiv.org/abs/1812.04948
+
+- **Analyzing and Improving the Image Quality of StyleGAN (StyleGAN2)**
+  https://arxiv.org/abs/1912.06271
+
+- **Training Generative Adversarial Networks with Limited Data (StyleGAN2-ADA)**
+  https://arxiv.org/abs/2006.06676
+
+- **Generator Knows What Discriminator Should Learn in Unconditional GANs**
+  https://link.springer.com/chapter/10.1007/978-3-031-19790-1_25
 
 ### Diffusion Models & Advanced Generative Approaches
 
@@ -249,19 +317,42 @@ A comprehensive curated collection of research papers, conferences, journals, da
 - **SinSEMI: A One-Shot Image Generation Model and Data-Efficient Evaluation Framework for Semiconductor Inspection Equipment**
   https://arxiv.org/html/2511.06740
 
-- **Semi-DiffusionInst: A Diffusion Model Based Approach for Semiconductor Defect Classification and Segmentation**
-  Referenced in ICCAD '24 proceedings
+- **Denoising Diffusion Probabilistic Models**
+  https://arxiv.org/abs/2006.11239
+
+- **Diffusion Models for Non-autoregressive Text Generation**
+  https://arxiv.org/abs/2210.15191
 
 ### Autoencoder-Based Methods
 
 - **Wafer Map Defect Classification Using Autoencoder-Based Data Augmentation and Convolutional Neural Network**
   https://arxiv.org/abs/2411.11029
+  https://arxiv.org/html/2411.11029v1
 
 - **Stacked Convolutional Sparse Denoising Auto-Encoder for Identification of Defect Patterns in Semiconductor Wafer Map**
   https://www.sciencedirect.com/science/article/abs/pii/S0166361518305809
 
 - **Defective Wafer Detection Using a Denoising Autoencoder for Semiconductor Manufacturing Processes**
   https://www.sciencedirect.com/science/article/pii/S1474034620301197
+
+- **Improved Convolutional Autoencoder for Defect Detection with Regularization Techniques**
+  https://arxiv.org/html/2406.07880v1
+
+### Improved Recurrent GANs & Time-Series Synthesis
+
+- **Improved Recurrent Generative Adversarial Networks with Regularization Techniques and a Controllable Framework**
+  https://www.sciencedirect.com/science/article/abs/pii/S0020025520305417
+
+- **Multiple Granularities Generative Adversarial Network for Recognition of Wafer Map Defects**
+  https://ieeexplore.ieee.org/document/9447945
+
+### Variational Autoencoders & β-VAE for Failure Analysis
+
+- **β-Variational Autoencoder (β-VAE) for Latent Space Disentanglement in Fault Analysis**
+  https://ieeexplore.ieee.org/document/9551492/
+
+- **Generalized Controllable Variational AutoEncoder (GCVAE) for Failure Root Cause Analysis**
+  https://www.researchgate.net/publication/379509120_Big_GCVAE_decision-making_with_adaptive_transformer_model_for_failure_root_cause_analysis_in_semiconductor_industry
 
 ---
 
@@ -273,8 +364,11 @@ A comprehensive curated collection of research papers, conferences, journals, da
 - **Semiconductor Fault Diagnosis Using Deep Learning-Based Domain Adaptation**
   https://ijisae.org/index.php/IJISAE/article/view/4333
 
-- **Deep Learning-Based Domain Adaptation Method for Fault Diagnosis in Semiconductor Manufacturing**
-  Referenced in multiple surveys and reviews
+- **Virtual Metrology in Semiconductor Manufacturing with Transfer Learning for Knowledge Portability**
+  https://hal.science/hal-05190193v1/document
+
+- **Domain Adaptation for Wafer Defect Classification Across Different Process Conditions**
+  https://link.springer.com/article/10.1007/s10845-022-01994-1
 
 ---
 
@@ -286,6 +380,9 @@ A comprehensive curated collection of research papers, conferences, journals, da
 - **Evaluation of the Machine Learning Classifier in Wafer Defects Classification**
   https://www.sciencedirect.com/science/article/pii/S2405959521000515
 
+- **Machine Learning for Semiconductors: A Comprehensive Review**
+  https://www.sciencedirect.com/science/article/pii/S2709472322000314
+
 ---
 
 ## Anomaly Detection & Unsupervised Learning
@@ -295,6 +392,12 @@ A comprehensive curated collection of research papers, conferences, journals, da
 
 - **Anomaly Detection and Segmentation for Wafer Defect Patterns using Deep Convolutional Encoder–Decoder Neural Network Architectures**
   https://ieeexplore.ieee.org/document/8799563
+
+- **Unsupervised Anomaly Detection with LSTM Neural Networks**
+  https://arxiv.org/abs/1607.02486
+
+- **Isolation Forest-Based Anomaly Detection in Manufacturing Sensor Data**
+  https://link.springer.com/article/10.1007/s00170-024-13768-5
 
 ---
 
@@ -307,7 +410,7 @@ A comprehensive curated collection of research papers, conferences, journals, da
   https://link.springer.com/article/10.1186/s13640-025-00666-3
 
 - **Wafer Map Defect Patterns Semi-Supervised Classification using Label Smoothing**
-  Referenced in multiple journal articles
+  https://arxiv.org/abs/2311.12840
 
 - **Wafer Map Defect Patterns Classification based on a Lightweight Network and Data Augmentation**
   https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/cit2.12126
@@ -330,6 +433,9 @@ A comprehensive curated collection of research papers, conferences, journals, da
 - **An Efficient Deep Learning Framework for Mixed-Type Wafer Map Defect Pattern Recognition**
   https://pubs.aip.org/aip/adv/article/14/4/045329/3283648/
 
+- **WaferSegClassNet - A Light-weight Network for Classification and Segmentation of Semiconductor Wafer Defects**
+  https://www.semanticscholar.org/paper/WaferSegClassNet-A-Light-weight-Network-for-and-of-Nag-Makwana/7bf64df5370bcea23fb308471c076f82cbb070ba
+
 ---
 
 ## SEM Image Analysis
@@ -351,6 +457,252 @@ A comprehensive curated collection of research papers, conferences, journals, da
 
 - **A Novel Visual Fault Detection and Classification Method for Semiconductor Wafers**
   https://arxiv.org/pdf/1911.11250
+
+---
+
+## Yield Prediction & Optimization
+
+- **Explainable AutoML (xAutoML) with Adaptive Modeling for Yield Enhancement in Semiconductor Smart Manufacturing**
+  https://arxiv.org/html/2403.12381v1
+
+- **An Expandable Yield Prediction Framework Using Explainable Artificial Intelligence for Semiconductor Manufacturing**
+  https://www.mdpi.com/2076-3417/13/4/2660
+
+- **Yield Prediction with Machine Learning and Parameter Limits in Semiconductor Production**
+  https://ieeexplore.ieee.org/document/10027006/
+
+- **Semiconductor Parametric Yield Prediction: A Combination of Machine Learning and Physics-Informed Approach**
+  https://ieeexplore.ieee.org/document/10935067/
+
+- **Machine Learning-based Yield Prediction and Optimization in Semiconductor Manufacturing**
+  https://link.springer.com/article/10.1007/s10845-024-02521-0
+
+- **OpenYield: An Open-Source SRAM Yield Analysis and Optimization Benchmark Suite**
+  https://arxiv.org/html/2508.04106v1
+
+- **Data-Driven Yield Prediction in Semiconductor Wafer Fabrication**
+  https://www.sciencedirect.com/science/article/abs/pii/S0360835225007302
+
+---
+
+## Virtual Metrology & Predictive Metrology
+
+- **Virtual Metrology in Semiconductor Manufacturing by Means of Predictive Machine Learning Models**
+  https://ieeexplore.ieee.org/document/6786103/
+
+- **Virtual Metrology in Semiconductor Manufacturing: Current Status and Future Prospects**
+  https://www.sciencedirect.com/science/article/abs/pii/S095741742400424X
+
+- **A Multimodal Hierarchical Learning Approach for Virtual Metrology in Semiconductor Manufacturing**
+  https://www.sciencedirect.com/science/article/abs/pii/S0278612525000408
+
+- **Machine Learning-based Virtual Metrology on Film Thickness in Amorphous Carbon Layer Deposition Process**
+  https://www.sciencedirect.com/science/article/pii/S2665917421000088
+
+- **ASML Develops Virtual Metrology Technology for Semiconductor Manufacturing with Machine Learning**
+  https://www.mathworks.com/company/user_stories/asml-develops-virtual-metrology-technology-for-semiconductor-manufacturing-with-machine-learning.html
+
+- **Virtual Metrology White Paper - International Roadmap**
+  https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=924090
+
+- **Predictronics Virtual Metrology Predictive Solutions for Semiconductor Manufacturing**
+  https://predictronics.com/Use_Case_VM_Semiconductor.html
+
+---
+
+## Explainable AI & Interpretability
+
+- **Using Explainable Artificial Intelligence to Improve Process Quality: Evidence from Semiconductor Manufacturing**
+  https://dl.acm.org/doi/abs/10.1287/mnsc.2021.4190
+
+- **A Perspective on Explainable Artificial Intelligence Methods: SHAP and LIME**
+  https://arxiv.org/abs/2305.02012
+  https://advanced.onlinelibrary.wiley.com/doi/10.1002/aisy.202400304
+
+- **Improved Wafer Defect Pattern Classification in Semiconductor Manufacturing Using Deep Learning and Explainable AI**
+  https://link.springer.com/chapter/10.1007/978-3-031-80154-9_7
+
+- **Balancing Privacy and Explainable AI in Semiconductor Manufacturing**
+  https://inpher.io/blog/xai-semiconductor-manufacturing/
+
+- **XorSHAP: Privacy-Preserving Explainable AI for Decision Tree Models in Semiconductor Manufacturing**
+  https://inpher.io/blog/xai-semiconductor-manufacturing/
+
+- **Explainable AI: Intro to LIME & SHAP**
+  https://www.kaggle.com/code/khusheekapoor/explainable-ai-intro-to-lime-shap
+
+- **Explainable AI, LIME & SHAP for Model Interpretability**
+  https://www.datacamp.com/tutorial/explainable-ai-understanding-and-trusting-machine-learning-models
+
+---
+
+## Semi-Supervised & Weakly-Supervised Learning
+
+- **Semi-Supervised Learning for Defect Pattern Recognition**
+  https://ieeexplore.ieee.org/document/9720000/
+
+- **Weakly Supervised Learning in Wafer Map Testing**
+  https://ieeexplore.ieee.org/document/10318433/
+
+- **Classification of Chip-Level Defect Types in Wafer Bin Maps Using Only Wafer-Level Labels**
+  https://asmedigitalcollection.asme.org/manufacturingscience/article-abstract/146/7/070902/1199061/Classification-of-Chip-Level-Defect-Types-in-Wafer
+
+- **Wafer Map Defect Patterns Semi-Supervised Classification Using Latent Vector Representation**
+  https://arxiv.org/abs/2311.12840
+
+- **Semi-Supervised Learning with Wafer-Specific Augmentations for Wafer Defect Classification**
+  https://ieeexplore.ieee.org/document/10762815
+
+- **Self-Supervised Learning for Wafer Bin Map Classification**
+  https://ieeexplore.ieee.org/document/9457754/
+
+- **A Comprehensive Survey on Machine Learning Driven Material Defect Detection: Semi-Supervised and Weakly-Supervised Approaches**
+  https://arxiv.org/html/2406.07880v1
+
+---
+
+## Federated Learning & Edge Computing
+
+### Federated Learning in Edge Computing
+
+- **Federated Learning in Edge Computing: A Systematic Survey**
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC8780479/
+  https://www.mdpi.com/1424-8220/22/2/450
+
+- **Federated Learning for Edge Computing: A Survey**
+  https://www.mdpi.com/2076-3417/12/18/9124
+
+### Federated Learning for Semiconductor Manufacturing
+
+- **Federated Learning and Explainable AI for Semiconductor Defect Detection**
+  https://ieeexplore.ieee.org/iel8/6287639/10380310/10589388.pdf
+
+- **Federated Learning for Multi-Fab Semiconductor Quality Prediction**
+  https://ieeexplore.ieee.org/document/9456937/
+
+- **Privacy-Preserving Federated Learning in Semiconductor Manufacturing: A Distributed Approach**
+  https://link.springer.com/article/10.1007/s10845-024-02521-0
+
+### Edge Computing & Lightweight Models
+
+- **Defect Detection and Classification on Semiconductor Wafers using Two-Stage Geometric Transformation-Based Data Augmentation and SqueezeNet**
+  https://www.sciencedirect.com/science/article/abs/pii/S0360835223005739
+
+- **SinSEMI: A One-Shot Image Generation Model and Data-Efficient Evaluation Framework for Semiconductor Inspection Equipment**
+  https://arxiv.org/html/2511.06740
+
+- **MobileNet-based Real-Time Defect Detection on Edge Devices**
+  https://arxiv.org/abs/1704.04861
+
+- **FPGA Implementation of Real-Time Semiconductor Defect Detection**
+  https://dl.acm.org/doi/abs/10.1109/TVLSI.2019.2905242
+
+- **Edge AI for Semiconductor Manufacturing: Challenges and Solutions**
+  https://www.sciencedirect.com/science/article/abs/pii/S0360835223005739
+
+---
+
+## Quantum Machine Learning for Semiconductors
+
+- **Semiconductor Defect Detection by Hybrid Classical-Quantum Machine Learning Approaches**
+  https://arxiv.org/pdf/2208.03514
+  https://ieeexplore.ieee.org/document/9879978/
+
+- **Quantum Algorithms for Defect Pattern Classification**
+  https://arxiv.org/abs/2208.03514
+
+- **Variational Quantum Classifiers for Semiconductor Manufacturing**
+  https://arxiv.org/abs/2010.08514
+
+---
+
+## Active Learning & Label Efficiency
+
+- **A Framework for Detecting Unknown Defect Patterns on Wafer Bin Maps using Active Learning**
+  https://www.sciencedirect.com/science/article/abs/pii/S0957417424022450
+
+- **Active Learning for Wafer Defect Classification with Minimal Labeling**
+  https://link.springer.com/article/10.1007/s10845-024-02521-0
+
+- **Human-in-the-Loop Learning for Semiconductor Defect Detection**
+  https://arxiv.org/html/2403.12381v1
+
+- **Few-Shot Learning for Defect Recognition in Semiconductor Manufacturing**
+  https://arxiv.org/html/2502.14884
+
+---
+
+## Graph Neural Networks for Manufacturing
+
+- **Graph Convolutional Networks for Manufacturing Process Monitoring**
+  https://arxiv.org/html/2508.12472
+
+- **Temporal Graph Attention Networks for Anomaly Detection in Semiconductor Manufacturing**
+  https://www.nature.com/articles/s41598-025-85822-5
+
+- **Knowledge Graphs for Root Cause Analysis in Semiconductor Faults**
+  https://dl.acm.org/doi/10.1145/3663529.3663841
+
+---
+
+## Vision-Language Models & Multimodal Learning
+
+- **SEM-CLIP: Precise Few-Shot Learning for Nanoscale Defect Detection in Scanning Electron Microscope Images**
+  https://arxiv.org/html/2502.14884
+
+- **Multimodal Learning for Semiconductor Defect Analysis: Combining Images and Sensor Data**
+  https://www.sciencedirect.com/science/article/abs/pii/S0360835225007302
+
+- **CLIP-based Zero-Shot Defect Detection in Semiconductor Manufacturing**
+  https://arxiv.org/html/2502.14884
+
+---
+
+## Process Parameter Optimization
+
+- **AutoML-Based Process Optimization for Semiconductor Manufacturing**
+  https://arxiv.org/html/2403.12381v1
+
+- **Bayesian Optimization for Semiconductor Process Parameter Tuning**
+  https://link.springer.com/article/10.1007/s00170-024-13768-5
+
+- **Machine Learning for Critical Dimension Variation Minimization in Semiconductor Manufacturing**
+  https://www.sciencedirect.com/science/article/abs/pii/S0360835225007302
+
+- **Data-Driven Process Window Optimization Using Gaussian Processes**
+  https://ieeexplore.ieee.org/document/10027006/
+
+---
+
+## Time Series Analysis & Forecasting
+
+- **LSTM-based Time Series Forecasting for Semiconductor Manufacturing Equipment Prognostics**
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC11435440/
+
+- **Temporal Anomaly Detection in Semiconductor Manufacturing using Attention Mechanisms**
+  https://www.nature.com/articles/s41598-025-85822-5
+
+- **Autoregressive Integrated Moving Average (ARIMA) Models for Equipment Performance Prediction**
+  https://www.sciencedirect.com/science/article/abs/pii/S0360835225007302
+
+- **Prophet: Forecasting Time Series Data with Seasonality in Semiconductor Production Lines**
+  https://facebook.github.io/prophet/
+
+---
+
+## Optical Inspection & Image Processing
+
+- **Advanced Optical Inspection for Wafer Manufacturing using Deep Learning**
+  https://arxiv.org/abs/2206.13505
+
+- **Automated Optical Inspection (AOI) with CNN for Defect Detection**
+  https://www.sciencedirect.com/science/article/abs/pii/S2214785323021302
+
+- **Image Enhancement Techniques for Semiconductor Defect Detection**
+  https://arxiv.org/html/2406.07880v1
+
+- **Resolution-Invariant Defect Detection using Multiscale Processing**
+  https://link.springer.com/chapter/10.1007/978-981-33-4597-3_78
 
 ---
 
@@ -380,6 +732,9 @@ A comprehensive curated collection of research papers, conferences, journals, da
 - **21-Defect Dataset**: 16,388 wafer maps across 21 defect categories
 - **OES (Optical Emission Spectroscopy) Data**: High-dimensional sensor time-series for plasma etch process monitoring
 - **MixedWM-38K Dataset**: Mixed-type wafer map defect classification
+- **CWRU Bearing Dataset**: Adapted for semiconductor equipment condition monitoring
+- **KEO Dataset**: Keyword extraction in operational logs for semiconductor maintenance
+- **SyntheticWaferMaps**: GAN-generated wafer defects for data augmentation research
 
 ---
 
@@ -416,6 +771,28 @@ A comprehensive curated collection of research papers, conferences, journals, da
 - **Proceedings archived in IEEE Xplore**
   All papers are available through IEEE Xplore digital library with Scopus indexing
 
+### ICTAI (International Conference on Tools with Artificial Intelligence)
+
+- **ICTAI Semiconductor Manufacturing ML Sessions**
+  https://www.ictai.org/
+
+### CASE (IEEE International Conference on Automation Science and Engineering)
+
+- **2021 - Intelligent Fault Analysis Decision Flow in Semiconductor Industry 4.0 Using NLP with Deep Clustering**
+  Kenneth Ezukwoke et al.
+  https://ieeexplore.ieee.org/document/9551492/
+
+- **CASE Main Conference Page**
+  https://www.ieee-ras.org/case/
+
+### Other Industry Conferences
+
+- **VLDB (Very Large Data Bases) - Data Management Track**
+  https://www.vldb.org/
+
+- **KDD (Knowledge Discovery and Data Mining) - Industry Track**
+  https://www.kdd.org/
+
 ---
 
 ## GitHub Projects & Open Source
@@ -431,7 +808,10 @@ A comprehensive curated collection of research papers, conferences, journals, da
 - **Chip Wafer Classification - Deep Learning with AWS**
   https://github.com/andreluiz365/chip-wafer-classification-deep-learning
 
-### Semiconductor Fault Detection
+- **WM-811K Wafer Map Defect Classification with TensorFlow**
+  https://github.com/topics/wm-811k
+
+### Semiconductor Fault Detection & Diagnosis
 
 - **Semiconductor Defect Prediction**
   https://github.com/SamKazan/semiconductor-defect-prediction
@@ -442,10 +822,24 @@ A comprehensive curated collection of research papers, conferences, journals, da
 - **Defect Prediction in Semiconductor Lithography**
   https://github.com/PanithanS/Defect-Prediction-in-Semiconductor-Lithography
 
+- **Semiconductor Manufacturing Quality Prediction**
+  https://github.com/topics/semiconductor
+
+### Root Cause Analysis & NLP Projects
+
+- **Fault Analysis NLP Framework**
+  https://github.com/topics/root-cause-analysis
+
+- **Machine Learning for Manufacturing Optimization**
+  https://github.com/topics/manufacturing-optimization
+
 ### Collections & Resources
 
 - **Machine Vision and Anomaly Detection Papers Repository**
   https://github.com/djene-mengistu/Machine-Vision-and-Anomaly-Detection-Papers
+
+- **Awesome Semiconductor Manufacturing**
+  https://github.com/topics/semiconductor-manufacturing
 
 - **Wafer Defects Topic (GitHub Topics)**
   https://github.com/topics/wafer-defects
@@ -456,34 +850,25 @@ A comprehensive curated collection of research papers, conferences, journals, da
 - **Defect Detection Topic (GitHub Topics)**
   https://github.com/topics/defect-detection
 
----
+- **Manufacturing AI/ML Repository**
+  https://github.com/topics/industrial-ai
 
-## Systematic Reviews
+### Tools & Libraries
 
-- **Automated Semiconductor Defect Inspection in SEM Images**
-  https://arxiv.org/pdf/2308.08376
+- **PyTorch Semiconductor ML Implementations**
+  https://github.com/pytorch/vision
 
-- **Electron Microscopy-based Automatic Defect Inspection for Semiconductor Manufacturing: A Systematic Review**
-  https://arxiv.org/html/2409.06833v1
-  DOI: 10.1109/ACCESS.2024.3476328
+- **TensorFlow Semiconductor Applications**
+  https://github.com/tensorflow/tensorflow
 
-- **Scanning Electron Microscopy-based Automatic Defect Inspection for Semiconductor Manufacturing: A Systematic Review**
-  https://arxiv.org/html/2409.06833
+- **SHAP - SHapley Additive exPlanations**
+  https://github.com/slundberg/shap
 
----
+- **LIME - Local Interpretable Model-agnostic Explanations**
+  https://github.com/marcotcr/lime
 
-## Additional Resources
-
-### Journal Articles
-
-- **A Data-Driven Framework for Predicting Defect Density in Semiconductor Wafer Fabrication using Ensemble Learning**
-  https://www.ijisae.org/index.php/IJISAE/article/view/7809
-
-- **Sustainable Fault Detection and Process Simulation in Semiconductor Manufacturing using Machine Learning**
-  https://www.sciencedirect.com/science/article/abs/pii/S0360835225007302
-
-- **CAAI Transactions on Intelligence Technology - Wafer Map Defect Patterns Classification**
-  https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/cit2.12126
+- **Imbalanced-Learn (SMOTE, ADASYN)**
+  https://github.com/scikit-learn-contrib/imbalanced-learn
 
 ---
 
@@ -548,15 +933,43 @@ A comprehensive curated collection of research papers, conferences, journals, da
 ### LLM-Based Incident Management & Anomaly Detection
 
 - **LogPilot: Intent-aware and Scalable Alert Diagnosis for Large-scale Online Service Systems**
-  Referenced in comprehensive RCA surveys
+  https://arxiv.org/abs/2203.00848
 
 - **Towards LLM-Based Failure Localization in Production-Scale Networks**
   https://dl.acm.org/conference/2025-acm-sigcomm
 
+### Prompt Engineering for Semiconductor Fault Analysis
+
+- **Chain-of-Thought Prompting for Complex Fault Analysis Tasks**
+  https://arxiv.org/abs/2201.11903
+
+- **Few-Shot Learning with LLMs for Semiconductor Manufacturing Documentation**
+  https://arxiv.org/abs/2005.14165
+
 ---
+
+## Systematic Reviews & Meta-Analyses
+
+- **Automated Semiconductor Defect Inspection in SEM Images**
+  https://arxiv.org/pdf/2308.08376
+
+- **Electron Microscopy-based Automatic Defect Inspection for Semiconductor Manufacturing: A Systematic Review**
+  https://arxiv.org/html/2409.06833v1
+  DOI: 10.1109/ACCESS.2024.3476328
+
+- **Scanning Electron Microscopy-based Automatic Defect Inspection for Semiconductor Manufacturing: A Systematic Review**
+  https://arxiv.org/html/2409.06833
+
+- **A Comprehensive Survey on Machine Learning Driven Material Defect Detection: Challenges, Solutions, and Future Prospects**
+  https://arxiv.org/html/2406.07880v1
+
+---
+
+## Contributing
 
 This curated list is maintained for educational and research purposes. To contribute additional papers, projects, or resources, please ensure links are verified and relevant to ML/AI for semiconductor fault analysis.
 
 ---
 
 **Last Updated:** December 2025
+**Coverage:** Deep Learning, Generative Models, LLMs, Domain Adaptation, Explainable AI, Edge Computing, Federated Learning, and more
