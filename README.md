@@ -418,4 +418,3 @@ This curated list is maintained for educational and research purposes. To contri
 ---
 
 **Last Updated:** December 2025
-**Total Resources:** 100+ papers, projects, and datasets
