@@ -972,4 +972,5 @@ This curated list is maintained for educational and research purposes. To contri
 ---
 
 **Last Updated:** December 2025
-**Coverage:** Deep Learning, Generative Models, LLMs, Domain Adaptation, Explainable AI, Edge Computing, Federated Learning, and more
+
+**Coverage:** Deep Learning, Generative Models, LLMs, Domain Adaptation, Explainable AI, Edge Computing, Federated Learning etc.
